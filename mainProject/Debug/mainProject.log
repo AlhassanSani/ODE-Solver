@@ -1,0 +1,29 @@
+﻿Build started 30/04/2020 5:55:09 PM.
+     1>Project "C:\Users\Alhassan Sani\Documents\Visual Studio 2015\Projects\mainProject\mainProject\mainProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Dichotomous.cpp Euler.cpp Fibonacci.cpp ModifiedEuler.cpp MyForm.cpp Three_Point.cpp
+         Dichotomous.cpp
+         Euler.cpp
+         Fibonacci.cpp
+         ModifiedEuler.cpp
+         MyForm.cpp
+     1>MyForm.cpp(6): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+         Three_Point.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alhassan Sani\Documents\Visual Studio 2015\Projects\mainProject\Debug\mainProject.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\mainProject.Adams.resources /ASSEMBLYRESOURCE:Debug\mainProject.Dichotomous.resources /ASSEMBLYRESOURCE:Debug\mainProject.Euler.resources /ASSEMBLYRESOURCE:Debug\mainProject.Fibonacci.resources /ASSEMBLYRESOURCE:Debug\mainProject.ModifiedEuler.resources /ASSEMBLYRESOURCE:Debug\mainProject.MyForm.resources /ASSEMBLYRESOURCE:Debug\mainProject.RK4.resources /ASSEMBLYRESOURCE:Debug\mainProject.Three_Point.resources /ASSEMBLYRESOURCE:Debug\mainProject.Two_Point.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Alhassan Sani\Documents\Visual Studio 2015\Projects\mainProject\Debug\mainProject.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Adams.obj
+         Debug\Dichotomous.obj
+         Debug\Euler.obj
+         Debug\Fibonacci.obj
+         Debug\ModifiedEuler.obj
+         Debug\MyForm.obj
+         Debug\RK4.obj
+         Debug\Three_Point.obj
+         Debug\Two_Point.obj
+         "Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+         mainProject.vcxproj -> C:\Users\Alhassan Sani\Documents\Visual Studio 2015\Projects\mainProject\Debug\mainProject.exe
+     1>Done Building Project "C:\Users\Alhassan Sani\Documents\Visual Studio 2015\Projects\mainProject\mainProject\mainProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.23
